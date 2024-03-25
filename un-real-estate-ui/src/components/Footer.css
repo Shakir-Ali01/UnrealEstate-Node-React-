@@ -1,0 +1,18 @@
+footer {
+  background-color: rgb(37, 33, 33);
+  padding: 60px;
+}
+
+.footer-links a {
+  color: aquamarine;
+  margin: 10px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-title {
+  font-size: 1.2rem;
+}

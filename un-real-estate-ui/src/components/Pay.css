@@ -1,0 +1,6 @@
+.searchLink {
+	text-decoration: none;
+	/* color: var(--accent-color); */
+	color: white;
+	font-size: 2rem;
+}

@@ -1,0 +1,32 @@
+.card {
+  background-color: #111 !important;
+  border: none;
+  color: white;
+}
+
+.card .card-img-top {
+  border-radius: 5px;
+}
+
+.card-title {
+  /* font-size: 1.1rem; */
+  margin-bottom: 5px;
+}
+
+#filterCityInput {
+  margin: 0px;
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+::placeholder {
+  color: white !important;
+}
+
+#deleteBtn {
+  width: 100%;
+}
+
+.ownerPropertyCard {
+  padding: 16px 8px;
+}

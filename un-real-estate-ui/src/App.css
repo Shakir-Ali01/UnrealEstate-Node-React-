@@ -1,0 +1,17 @@
+.landing-cards > .card-body > .card-title {
+  border-left: 2px solid var(--accent-color);
+  margin: 10px 0px;
+  padding-left: 10px;
+  transition: border-left 0.1s ease-in;
+  transition-duration: 0.2s;
+}
+
+.landing-cards > .card-body > .card-title:hover {
+  border-left: 6px solid var(--accent-color);
+   
+}
+
+.card {
+  cursor: pointer;
+  z-index: 99;
+}

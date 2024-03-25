@@ -1,0 +1,49 @@
+:root {
+  --accent-color: #dd4814;
+  --secondary-color: rgb(37, 33, 33);
+  --form-bg-color: rgb(33, 37, 41);
+  --card-border-radius: 7px;
+  --btn-border-radius: 7px;
+}
+
+.accent-color {
+  color: var(--accent-color) !important;
+}
+
+.colored-form {
+  background-color: var(--form-bg-color) !important;
+}
+
+body {
+  margin: 0;
+  font-family: "Dosis", sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #111;
+  color: white !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.landing-widget-img {
+  border-radius: var(--card-border-radius);
+  width: 100%;
+}
+
+.card-body {
+  padding: 16px 8px;
+}
+
+.btn {
+  color: white !important;
+}
+
+.react-icon {
+  margin-bottom: 2px;
+}

@@ -1,0 +1,46 @@
+.nav-link:hover {
+  color: var(--accent-color);
+}
+
+.navbar {
+  background-color: var(--secondary-color) !important;
+}
+
+.nav-brand-text > .accent-color {
+  font-size: 1.75rem;
+}
+.togglerBtn{
+   width: 35px !important;
+    height: 36px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    float:right !important;
+
+}
+/* .toggleContent{
+
+  width: 71px;
+
+  float: right;
+  margin-top: 39px;
+
+} */
+.moblieView{
+  display: none !important;
+}
+@media screen and (max-width: 573px){
+  .desktopView{
+    display: none !important;
+  }
+  .moblieView{
+    display: block !important;
+  }
+}
+
+@media screen and (min-width: 572px){
+  .mobileView{
+    display: none !important;
+  }
+
+}
